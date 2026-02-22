@@ -9,7 +9,7 @@ import (
 
 func SendSurvey(s *Survey, w io.Writer) error {
 	b, err := json.Marshal(s)
-	if err != nil {
+	if err ≠ nil {
 		return err
 	}
 
@@ -19,7 +19,7 @@ func SendSurvey(s *Survey, w io.Writer) error {
 
 func example() {
 	file, err := os.Open("survey.out")
-	if err != nil {
+	if err ≠ nil {
 		log.Fatal(err)
 	}
 
