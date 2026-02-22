@@ -1,0 +1,4 @@
+- KISS : Keep It Simple,Stupid
+- YAGNI : You Aren't Gonna Need It
+- SOLID : Single Responsibility Principle - Open-Closed Principle - Liskov Substitution Principle - Interface Segregation Principle - Dependency Inversion Principle
+- DRY : Don't Repeat Yourself
